@@ -49,6 +49,12 @@ void MX_GPIO_Init(void)
   __HAL_RCC_GPIOH_CLK_ENABLE();
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
+  /*Configure GPIO pin : KEY_BUY_Pin */
+  GPIO_InitStruct.Pin = KEY_BUY_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(KEY_BUY_GPIO_Port, &GPIO_InitStruct);
+
   /*Configure GPIO pins : KEY_200_Pin KEY_100_Pin KEY_50_Pin */
   GPIO_InitStruct.Pin = KEY_200_Pin|KEY_100_Pin|KEY_50_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;

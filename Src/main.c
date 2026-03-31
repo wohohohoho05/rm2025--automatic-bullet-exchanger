@@ -36,7 +36,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-#define NUM_KEYS 3
+#define NUM_KEYS 1
 #define DELAY_MS 25
 /* USER CODE END PD */
 
@@ -60,9 +60,9 @@ typedef struct {
 } Position;
 
 const Position key_positions[NUM_KEYS] = {
-    {1160, 560},  //50弹
-    {1210, 560},  //100弹
-    {1210, 560}   
+    {1160, 560}  //50弹
+    // {1210, 560},  //100弹
+    // {1210, 560}   
 };
 
 const Position common_positions[3] = {
@@ -73,10 +73,9 @@ const Position common_positions[3] = {
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
+/* USER CODE BEGIN PFP */
 void send_mouse_sequence(uint16_t x, uint16_t y);
 void send_common_sequence(void);
-/* USER CODE BEGIN PFP */
-
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -129,9 +128,9 @@ int main(void)
       GPIO_PinState pin_state;
       
       switch (i) {
-          case 0: pin_state = HAL_GPIO_ReadPin(KEY_GPIO_Port, KEY_50_Pin); break;
-          case 1: pin_state = HAL_GPIO_ReadPin(KEY_GPIO_Port, KEY_100_Pin); break;
-          case 2: pin_state = HAL_GPIO_ReadPin(KEY_GPIO_Port, KEY_200_Pin); break;
+          case 0: pin_state = HAL_GPIO_ReadPin(KEY_BUY_GPIO_Port, KEY_BUY_Pin); break;
+          // case 1: pin_state = HAL_GPIO_ReadPin(KEY_GPIO_Port, KEY_100_Pin); break;
+          // case 2: pin_state = HAL_GPIO_ReadPin(KEY_GPIO_Port, KEY_200_Pin); break;
       }
       
       key_pressed[i] = (pin_state == GPIO_PIN_RESET);

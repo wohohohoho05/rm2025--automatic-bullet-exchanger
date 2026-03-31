@@ -31,9 +31,9 @@ rm2025_auto_ammo_exchanger\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx
 rm2025_auto_ammo_exchanger\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 rm2025_auto_ammo_exchanger\main.o: ../Inc/usart.h
 rm2025_auto_ammo_exchanger\main.o: ../Inc/gpio.h
-rm2025_auto_ammo_exchanger\main.o: ..\rm_referee_system\referee_protocol.h
-rm2025_auto_ammo_exchanger\main.o: ..\rm_referee_system\referee_frame_process.h
-rm2025_auto_ammo_exchanger\main.o: ..\rm_referee_system\fifo.h
+rm2025_auto_ammo_exchanger\main.o: ../rm_referee_system/referee_protocol.h
+rm2025_auto_ammo_exchanger\main.o: ../rm_referee_system/referee_frame_process.h
+rm2025_auto_ammo_exchanger\main.o: ../rm_referee_system/fifo.h
 rm2025_auto_ammo_exchanger\main.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 rm2025_auto_ammo_exchanger\main.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 rm2025_auto_ammo_exchanger\main.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

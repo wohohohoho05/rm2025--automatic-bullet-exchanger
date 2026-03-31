@@ -3,7 +3,7 @@
 <title>Static Call Graph - [rm2025_auto_ammo_exchanger\rm2025_auto_ammo_exchanger.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image rm2025_auto_ammo_exchanger\rm2025_auto_ammo_exchanger.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Tue Mar 31 14:10:47 2026
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Tue Mar 31 14:20:52 2026
 <BR><P>
 <H3>Maximum Stack Usage =        184 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -828,7 +828,7 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f407xx.o(RESET)
 </UL>
-<P><STRONG><a name="[9c]"></a>MX_GPIO_Init</STRONG> (Thumb, 86 bytes, Stack size 32 bytes, gpio.o(i.MX_GPIO_Init))
+<P><STRONG><a name="[9c]"></a>MX_GPIO_Init</STRONG> (Thumb, 102 bytes, Stack size 32 bytes, gpio.o(i.MX_GPIO_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = MX_GPIO_Init &rArr; HAL_GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
@@ -923,7 +923,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;referee_pack_data
 </UL>
 
-<P><STRONG><a name="[72]"></a>main</STRONG> (Thumb, 292 bytes, Stack size 8 bytes, main.o(i.main))
+<P><STRONG><a name="[72]"></a>main</STRONG> (Thumb, 262 bytes, Stack size 8 bytes, main.o(i.main))
 <BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = main &rArr; SystemClock_Config &rArr; HAL_RCC_ClockConfig &rArr; HAL_RCC_GetSysClockFreq &rArr; __aeabi_uldivmod
 </UL>
 <BR>[Calls]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;referee_pack_data
