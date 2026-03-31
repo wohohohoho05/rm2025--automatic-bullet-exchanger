@@ -1,0 +1,1 @@
+rm2025_auto_ammo_exchanger\startup_stm32f407xx.o: startup_stm32f407xx.s

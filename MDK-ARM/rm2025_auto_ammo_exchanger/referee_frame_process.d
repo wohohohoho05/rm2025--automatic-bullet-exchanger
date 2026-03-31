@@ -1,0 +1,11 @@
+rm2025_auto_ammo_exchanger\referee_frame_process.o: ..\rm_referee_system\referee_frame_process.c
+rm2025_auto_ammo_exchanger\referee_frame_process.o: ..\rm_referee_system\referee_frame_process.h
+rm2025_auto_ammo_exchanger\referee_frame_process.o: ..\rm_referee_system\referee_protocol.h
+rm2025_auto_ammo_exchanger\referee_frame_process.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+rm2025_auto_ammo_exchanger\referee_frame_process.o: ..\rm_referee_system\fifo.h
+rm2025_auto_ammo_exchanger\referee_frame_process.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+rm2025_auto_ammo_exchanger\referee_frame_process.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+rm2025_auto_ammo_exchanger\referee_frame_process.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+rm2025_auto_ammo_exchanger\referee_frame_process.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+rm2025_auto_ammo_exchanger\referee_frame_process.o: ..\rm_referee_system\referee.h
+rm2025_auto_ammo_exchanger\referee_frame_process.o: ..\rm_referee_system\crc8_crc16.h
